@@ -12,6 +12,7 @@
 }
 /*elementos base*/
 body{
+
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -32,7 +33,7 @@ header .logo
     color: var(--vermelho);
     font-family: "Arial Black", 'Times New Roman', Times, serif;
     font-size: 40px;
-    text-align: start;
+    text-align: start center;
     margin-left: 5px;
 
 }
@@ -41,6 +42,7 @@ header nav a{
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
+    font-size:large;
 
 }
 
@@ -54,7 +56,7 @@ header nav a:hover
 .filme-principal
 {
     font-size:16px;
-    background:url(/ComedyFlix/img/Adam_capa.jpg) , linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%) ;    
+    background:url('/img/Adam_capa.jpg') ,linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0) 100%);
     height: auto;
     background-size: cover;
     margin-bottom: 50px;
@@ -81,9 +83,9 @@ header nav a:hover
 
 .botao
 {
-    background-color: rgba(red, green, blue, 50) ;
+    background-color: rgba(255,255,255, 50) ;
     border: none;
-    color: white;
+    color: grey;
     padding: 15px 30px;
     margin-right: 15px;
     margin-bottom: 5%;
@@ -138,4 +140,26 @@ header nav a:hover
 .carrosel-filmes
 {
     margin-top: 5px;
+}
+.modal-body{
+
+    color: white    ;
+    background-color: #141414;
+}
+
+.modal-title{
+    
+    color: white    ;
+    background-color: #141414;
+}
+.modal-header{
+  
+    color: white    ;
+    background-color: #141414;
+}
+.modal-footer
+{
+   
+    color: white    ;
+    background-color: #141414;
 }
