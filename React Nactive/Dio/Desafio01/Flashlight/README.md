@@ -3,6 +3,16 @@
 
 ### O aplicativo foi desenvolvido durante o bootcamp, utilizando a linguagem JavaScript e o FrameWork React Native, e contém as funcionalidades de ligar e desligar a lanterna ao clicar e também ao balançar o celular, utilizando o seu sensor de movimento.
 
+## Conteúdo aprendido e utilizado durante o desenvolvimento da aplicação:
+
+- Libs react-native-shake e react-native-torch
+- icons
+- StyleSheet
+- Hook useState
+- Hook useEffect
+- Add Listener to RNShake
+- LifeCicle ReactJS
+
 ## Imagens do App
 ### - Lanterna Desligada
 
