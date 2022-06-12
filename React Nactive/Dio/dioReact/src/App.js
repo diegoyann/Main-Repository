@@ -7,8 +7,6 @@ SafeAreaView,
 StatusBar,
 Pressable,
 Linking} from 'react-native'
-import { linear } from 'react-native/Libraries/Animated/Easing';
-
 const colorGitHub = '#010409';
 const colorFontGitHub = '#C9D1D9'
 const colorDarkFontGitHub = '#4F565E'
