@@ -56,11 +56,10 @@ header nav a:hover
 .filme-principal
 {
     font-size:16px;
-    background:url('/img/Adam_capa.jpg') ,linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0) 100%);
-    height: auto;
+    -webkit-mask-image : linear-gradient(to left, transparent 5%, black 70%);;
+    background-image:url('https://technewsbrasil.com.br/wp-content/uploads/2022/02/projeto-adam-1.jpg');
     background-size: cover;
     margin-bottom: 50px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +70,9 @@ header nav a:hover
 .filme-principal .descricao
 {
     margin-bottom: 20%;
-        
+    color: white;
+    font-weight: bold;
+    font-size: large;        
 }
 
 .titulo
